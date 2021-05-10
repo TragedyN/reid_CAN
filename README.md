@@ -1,6 +1,8 @@
 # Collaborative Attention Network for Person Re-identification
 
-This repository includes the 3th place solution for [LSPRC](https://lsprc.github.io/) at PRCV 2020.[Our paper](https://iopscience.iop.org/article/10.1088/1742-6596/1848/1/012074)
+![](https://github.com/lwplw/reid_CAN/blob/main/can.png)
+
+In this repository, we include the 3th place solution for [LSPRC](https://lsprc.github.io/) at PRCV 2020.[Our paper](https://iopscience.iop.org/article/10.1088/1742-6596/1848/1/012074)
 
 ## Authors
 - [Wenpeng Li](https://blog.csdn.net/lwplwf)
@@ -12,10 +14,8 @@ This repository includes the 3th place solution for [LSPRC](https://lsprc.github
 - [x] PyTorch == 1.3.0
 - [x] TorchVision == 0.4.0
 - [x] Matplotlib == 3.0.2
-- [x] Argparse == 1.1
 - [x] Sklearn == 0.20.1
 - [x] PIL == 5.3.0
-- [x] Numpy == 1.16.5
 - [x] Scipy == 1.1.0
 - [x] Tqdm == 4.28.1
 - [x] prefetch_generator = 1.0.1
