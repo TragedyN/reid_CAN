@@ -35,6 +35,12 @@ data/
     bounding_box_test/
     query/
 ```
+- Market1501 
+Download from [here](http://www.liangzheng.org/Project/project_reid.html)
+
+- DukeMTMC-reID
+Download from [here](http://vision.cs.duke.edu/DukeMTMC/)
+
 
 ## Project File Structure
 ```
@@ -122,6 +128,25 @@ Parameter details are as follows：
 - `-pre_train`: The model choosed to test
 
 Refer to `option.py` for other related parameters
+
+##  Current Result
+- Market-1501
+| Re-Ranking| mAP | Rank-1 | Rank-3 | Rank-5 | Rank-10 |  
+| :------: |  :------: | :------: | :------: |  :------: |  :------: |   
+| w/o |   90.69  | 96.32 | 98.04 | 98.72 |99.35 |
+| with |  95.41 | 96.56 | 97.95 | 98.34 | 98.84 |
+
+- DukeMTMC-ReID
+| Re-Ranking| mAP | Rank-1 | Rank-3 | Rank-5 | Rank-10 |  
+| :------: |  :------: | :------: | :------: |  :------: |  :------: |   
+| w/o |  82.27 | 91.56 |95.02 |96.01 |97.17 |
+| with | 91.85 | 93.54 | 95.78|96.41 |96.99 |
+
+- CUHK03
+| Re-Ranking| mAP | Rank-1 | Rank-3 | Rank-5 | Rank-10 |  
+| :------: |  :------: | :------: | :------: |  :------: |  :------: |   
+| w/o |  82.82 | 86.14 | 91.36 | 93.71 |96.00 |
+| with |91.92 |90.93 |92.29 |94.07|97.07|
 
 
 ## Citation
