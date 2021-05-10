@@ -1,4 +1,4 @@
-# Collaborative Attention Network for Person Re-identification
+# CAN
 
 ![](https://github.com/lwplw/reid_CAN/blob/main/can.png)
 
