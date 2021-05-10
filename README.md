@@ -130,8 +130,8 @@ If you find [our work](https://iopscience.iop.org/article/10.1088/1742-6596/1848
 ````
 @article{li2021collaborative,
     title={Collaborative Attention Network for Person Re-identification},
-    author={Wenpeng Li and Yongli Sun and Jinjun Wang and Han Xu and Xiangru Yang and Long Cui},
-    journal={J. Phys.: Conf. Ser.},
+    author={Li, Wenpeng and Sun, Yongli and Wang, Jinjun and Cao, Junliang and Xu, Han and Yang, Xiangru and Sun, Guangze and Ma, Yangyang and Long, Yilin},
+    journal={Journal of Physics: Conference Series},
     doi={10.1088/1742-6596/1848/1/012074},
     year={2021},
 }
