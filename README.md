@@ -1,8 +1,6 @@
 # Collaborative Attention Network for Person Re-identification
 
-This repository includes the 3th place solution for [LSPRC(Large-Scale Pedestrian Retrieval Competition)](https://lsprc.github.io/) at PRCV 2020.
-
-[Our paper](https://iopscience.iop.org/article/10.1088/1742-6596/1848/1/012074)
+This repository includes the 3th place solution for [LSPRC](https://lsprc.github.io/) at PRCV 2020.[Our paper](https://iopscience.iop.org/article/10.1088/1742-6596/1848/1/012074)
 
 ## Authors
 - [Wenpeng Li](https://blog.csdn.net/lwplwf)
