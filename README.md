@@ -24,13 +24,11 @@ This repository includes the 3th place solution for [PRCV2020](https://lsprc.git
 
 
 ## Warning
-
 The batchnorm.py file from PyTorch is modified in our model which is under the path of './model'.
 Please ensure that the path of modules and nn is consistent with the system environment. More details please refer to the line5 and line10 in batchnorm.py.
 
 
 ## Data
-
 The data structure would look like:
 ```
 data/
@@ -41,7 +39,7 @@ data/
 
 ## Project File Structure
 ```
-|--can_b
+|--reid_CAN
   |--data               #（Train data related）
     |--_init_.py
     |--commom.py
@@ -80,13 +78,14 @@ data/
   |--trainer.py
 ```
 
-## Quick Start
+## Get Started
 ```sh
-cd ./reid_can
+cd ./reid_CAN
 sh run.sh
 ```
 In the **run.sh** file, cancel the comment of the training or testing command.
-and  run `sh run.sh`,you can quick stark with training or testing
+and  run `sh run.sh`, you can quick stark with training or testing.
+
 ## Train
 You can specify more parameters in option.py.
 Change the parameters **--datadir** to your own train data path
@@ -135,7 +134,6 @@ Parameter details are as follows：
 - `-pre_train`: The model choosed to test
 
 Refer to **option.py** for other related parameters
-
 
 
 ## Citation
